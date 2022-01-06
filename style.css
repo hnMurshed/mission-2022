@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 56px;
+    font-family: 'Cantata One', serif;
+    margin: 0;
+    line-height: 42px;
+}
+h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #000000;
+}
+h3 {
+    font-size: 34px;
+
+}
+h4 {
+    font-size: 20px;
+    margin: 0;
+}
+p {
+    color: #000000;
+    text-align: justify;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.header-section {
+    padding: 80px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+}
+.col-2 {
+    width: 45%;
+}
+.col-2:first-child {
+    margin-right: 5%;
+}
+.col-2:last-child {
+    margin-left: 5%;
+}
+.header-section .main-heading {
+    border-left: 4px solid #723A78;
+    padding-left: 5px;
+    margin-bottom: 35px;
+}
+.header-section h1:first-child {
+    padding-bottom: 40px;
+}
+.header-section .text-area {
+    padding-top: 50px;
+}
+.link-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #723A78;
+    padding: 10px 30px;
+    margin: 10px 0;
+    border: 3px solid #723A78;
+    border-radius: 5px;
+    transition: 0.3s;
+    display: inline-block;
+}
+.link-btn:hover {
+    background-color: transparent;
+    color: #723A78;
+}
+.purpled-color {
+    color: #FC4AC1;
+}
+.header-section br + span {
+    font-size: 14px;
+    color: #000000;
+    line-height: 50px;
+}
+
+/* my-mission-section starts */
+
+.my-mission-section {
+    padding-bottom: 80px;
+}
+.my-mission-section .mission-title {
+    text-align: center;
+}
+.my-mission-section .img-size {
+    width: 150px;
+}
+.col-3 {
+    width: 32%;
+}
+.col-3:nth-child(2) {
+    margin: 0 2%;
+}
+.my-mission-section .col-3 {
+    padding: 12px 30px;
+    border-radius: 15px;
+}
+.mission-color {
+    background-color: #fc4ac12a;
+}
+.vision-color {
+    background-color: #723a7828;
+}
+.goals-color {
+    background-color: #f088d154;
+}
+
+/* develop-section starts */
+
+.col-md-2 {
+    width: 38%;
+}
+.col-lg-2 {
+    width: 62%;
+}
+.develop-section .col-lg-2 {
+    padding-left: 60px;
+}
+
+/* our-community-section stats */
+
+.our-community-section {
+    padding: 80px 0;
+}
+.our-community-section .col-lg-2 {
+    padding-right: 60px;
+}
+
+/* something starts */
+
+.something-section {
+    padding: 80px 0;
+}
+
+/* footer-section starts */
+
+.footer-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer-section h3 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0;
+}
+.footer-section p {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-section .blue-color {
+    color: #d313e9;
+}
