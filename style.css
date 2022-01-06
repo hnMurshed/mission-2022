@@ -31,6 +31,7 @@ img {
 }
 .header-section {
     padding: 80px 0;
+    background-color: rgba(0, 0, 0, 0.082);
 }
 .container {
     width: 80%;
@@ -119,6 +120,10 @@ img {
 
 /* develop-section starts */
 
+.develop-section {
+    background-color: rgba(0, 0, 0, 0.082);
+    padding: 80px 0;
+}
 .col-md-2 {
     width: 38%;
 }
@@ -138,10 +143,77 @@ img {
     padding-right: 60px;
 }
 
-/* something starts */
+/* activity-section starts */
 
-.something-section {
+.activity-section {
     padding: 80px 0;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.activity-section h3 {
+    text-align: center;
+}
+.activity-section h4 {
+    font-size: 18px;
+    padding: 0 15px;
+}
+.activity-section h3+p {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.activity-section .activity p {
+    font-size: 14px;
+    padding: 0 15px;
+}
+.activity-section a {
+    text-decoration: none;
+    color: #000000;
+}
+.activity-section .activity {
+    width: 48%;
+}
+.activity-section .activity:first-child {
+    margin-right: 4%;
+}
+.activity-section .col-2 {
+    width: 47%;
+    margin: 0;
+}
+.activity-section .col-2:first-child {
+    padding-right: 6%;
+}
+.activity-section .activity-title {
+    text-align: center;
+    border-bottom: 1px solid #00000028;
+    padding-bottom: 10px;
+    margin: 15px 0;
+}
+.activity-section .blog {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+}
+.activity-section .blog img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.service {
+    position: relative;
+    margin-bottom: 20px;
+}
+.service img {
+    color: rgba(0, 0, 0, 0.219);
+}
+.service h5 {
+    font-size: 18px;
+}
+.ser-title {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
 }
 
 /* footer-section starts */
